@@ -1,6 +1,7 @@
 import csv
 
 def sum_of_digits(file_name):
+    """returns list"""
     list=[]
     with open(file_name) as csv_file:
         csv_reader = csv.reader(csv_file)
